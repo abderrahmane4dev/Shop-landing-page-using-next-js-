@@ -13,16 +13,16 @@ function Hero() {
      
       >
             <div className=' w-full md:w-1/2'> 
-    <h1 className='text-sky-900 mt-32 font-bold text-7xl'> 
+    <h1 className='text-sky-900 mt-32 font-bold text-6xl md:text-7xl'> 
     Romofyi
     </h1>
-    <h1 className='mt-5 text-yellow-400 font-normal text-8xl'> 
+    <h1 className='mt-5 text-yellow-400 font-normal text-7xl md:text-8xl'> 
     Trands 2019
     </h1>
-    <h3 className=' mt-9 text-4xl'> 
+    <h3 className=' mt-9 md:text-4xl'> 
     A huge fashion collection for ever
     </h3>
-    <button className='bg-blue-500 hover:bg-yellow-400  text-lg duration-500 p-5 text-white w-1/2 mt-9 md:w-2/6 rounded-full'> 
+    <button className='bg-blue-500 hover:bg-yellow-400 text-md md:text-lg duration-500 p-5 text-white w-1/2 mt-9 md:w-2/6 rounded-full'> 
       SHOP NOW 
     </button>
             </div>
