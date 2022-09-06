@@ -9,9 +9,11 @@ import Hero from '../components/herosection'
 import Newsletter from '../components/newsletter'
 import SectionOut from '../components/Sectionout'
 import Rights from '../components/Rights'
+
   export default   function Home() {
   return (
     <>
+  
   <SectionOut/>
    <Navbar/>
    <Hero/>

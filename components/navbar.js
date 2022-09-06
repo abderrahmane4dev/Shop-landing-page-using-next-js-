@@ -1,14 +1,15 @@
 import icon from "../assets/icons/menu-icon.svg"
 import {AiOutlineMenu } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
+import Link from 'next/link';
 import React, { useState } from 'react'
 function Navbar() {
   const links =[
     {name:"Home",Link:"/"},
-    {name:"About",Link:"/"},
-    {name:"Products",Link:"/"},
-    {name:"Fashion",Link:"/"},
-    {name:"News",Link:"/"},
+    {name:"About",Link:"/secondary/about"},
+    {name:"Products",Link:"/secondary/products"},
+    {name:"Fashion",Link:"/secondary/fashion"},
+    {name:"News",Link:"/secondary/news"},
     {name:"Contact us",Link:"/"},
   ] 
   const [open,setOpen]=useState(false);
@@ -26,11 +27,14 @@ function Navbar() {
                
                {links.map((link)=> (
               <li  className="hover:bg-yellow-400 flex items-center md:justify-center md:pb-0 pb-10 w-full md:w-2/12 "> 
-                <a className=""  href={link.Link}> 
-{
-  link.name
+                
+                <Link href={`${link.Link}`}>
+                {
+  link.name 
 }
-                </a>
+                </Link>
+
+              
               </li>
                ))}
               
