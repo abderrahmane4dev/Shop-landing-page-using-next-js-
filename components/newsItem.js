@@ -11,7 +11,7 @@ function NewsItem(props) {
                 <a> 7 july 2019 </a>
                 <a> like comment  </a>
             </div>
-            <p className="text-lg self-end font-normal ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            <p className="text-lg self-end font-normal ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, 
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
         </div>
         </div>
