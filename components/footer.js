@@ -14,7 +14,7 @@ function Footer() {
         </div>
 
 
-        <div className="flex flex-col w-full md:flex-row px-9 lg:px-24 py-36 "> 
+        <div className="flex flex-col w-full md:flex-row px-9 lg:px-24 pt-36 pb-16 "> 
         <FooterItem title="INFORMATION"/>
         <FooterItem title="MY ACCOUNT"/>
         <FooterItem title="ABOUT"/>

@@ -20,7 +20,7 @@ function Navbar() {
             <nav className=" w-full h-full  "> 
             <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
     
-     <AiOutlineMenu className="text-white"/>
+     <AiOutlineMenu className="text-black"/>
       </div>
               <ul className={`md:flex text-white justify-around  bg-sky-400 md:bg-transparent md:pt-0 pt-9 md:pb-0 absolute md:static md:z-auto z-50 md:pl-0 pl-7 transition-all duration-500 ease-in ${open ? 'top-20  ':'top-[-490px] '} pb-12 w-full md:h-full` }> 
                
