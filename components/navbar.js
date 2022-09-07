@@ -23,7 +23,7 @@ function Navbar() {
     
      <AiOutlineMenu className="text-black"/>
       </div>
-              <ul className={`md:flex text-white justify-around  bg-sky-400 md:bg-transparent md:pt-0 pt-9 md:pb-0 absolute md:static md:z-auto z-50 md:pl-0 pl-7 transition-all duration-500 ease-in ${open ? 'top-20  ':'top-[-490px] '} pb-12 w-full md:h-full` }> 
+              <ul className={`md:flex text-white justify-around  bg-sky-900 md:bg-transparent md:pt-0 pt-9 md:pb-0 absolute md:static md:z-auto z-50 md:pl-0 pl-7 transition-all duration-500 ease-in ${open ? 'top-20  ':'top-[-490px] '} pb-12 w-full md:h-full` }> 
                
                {links.map((link,index)=> (
               <li key={index}  className="hover:bg-yellow-400 flex items-center md:justify-center md:pb-0 pb-10 w-full md:w-2/12 "> 
